@@ -7,4 +7,4 @@ fi
 
 cd /opt/iota-pm
 
-exec iota-pm -i ${IOTA_NODE} -p 0.0.0.0:${HTTP_PORT} -r ${REFRESH}
+exec iota-pm -i ${IOTA_NODE} -p ${HTTP_ADDRESS}:${HTTP_PORT} -r ${REFRESH}
